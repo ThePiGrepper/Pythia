@@ -1,4 +1,5 @@
 #!/bin/bash
+export LC_NUMERIC="en_US.UTF-8"
 last=0
 range=$(expr $3 - $2)
 while [[ $last -lt $3 ]];do

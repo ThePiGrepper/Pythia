@@ -9,5 +9,5 @@
 #else
 #  file="$3"
 #fi
-./catchemall.sh $3 $1 $2 &
-./showprogress.sh $3 $1 $2
+./showprogress.sh $3 $1 $2 &
+./catchemall.sh $3 $1 $2
