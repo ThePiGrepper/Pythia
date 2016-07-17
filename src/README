@@ -1,13 +1,15 @@
 #very quick instructions for running basic script
 
-you just need to run 'getscrappy.sh <minvalue> <maxvalue> <filename>'
+you just need to run './getscrappy.sh <minvalue> <maxvalue> <filename>' (run it from its directory!)
 where:
 minvalue: the lowest number to be requested.
 maxvalue: the lowest number to be requested.
 filename: the new file to be created.(the scripts overwrites any file with this name)
 
-try to generated files using the following convention:
+try to generate files using the following convention:
 d<minval>t<maxval>.t
 ie:
   d0t10k.t
   d20kt30k.t
+
+ie: ./getscrappy 10001 20000 d10kt20k.t
