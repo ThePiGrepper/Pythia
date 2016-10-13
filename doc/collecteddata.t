@@ -1,5 +1,5 @@
 Data Collected
-Overall Samples: 484999
-prepainted: 26347
-action/dolls: 21152
-null: 15244
+Overall Samples: 499999
+prepainted: 26576
+action/dolls: 21351
+null: 15389
